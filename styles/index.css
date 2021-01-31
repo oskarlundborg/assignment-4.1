@@ -1,0 +1,86 @@
+body {
+    background-color: #370617;
+
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.box {
+    width: 468px;
+    height: 160px;
+    margin: 20px;
+    background-color: #F48C06;
+    display: flex;
+    border-radius: 5px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    min-height: 78px;
+    min-width: 78px;
+    margin: 10px;
+    background-color: #9d0208;
+    border-radius: 5px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+}
+.card__text {
+    color: ivory;
+}
+
+.box__one {
+    align-items: flex-end;
+}
+
+.box__two {
+    justify-content: center;
+}
+
+.box__three {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box__four {
+    justify-content: space-between; 
+    align-items: flex-start;   
+}
+
+.box__five {
+    justify-content: space-around;    
+}
+
+.box__six {
+    align-items: center;
+    justify-content: center;
+}
+
+/*used in box four*/
+.card--bottom {
+    align-self: flex-end;
+}
+
+/*used in box five*/
+.card--align-middle {
+    align-self: center;
+}
+
+/*used in box six*/
+.card--grow {
+    flex-grow: 0.6;
+}
